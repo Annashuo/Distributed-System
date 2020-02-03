@@ -1,76 +1,89 @@
-2020-02-02 13:05:40,647 [myid:] - INFO  [main:QuorumPeerConfig@133] - Reading configuration from: /Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../conf/zoo.cfg
-2020-02-02 13:05:40,654 [myid:] - INFO  [main:QuorumPeerConfig@385] - clientPortAddress is 0.0.0.0/0.0.0.0:2181
-2020-02-02 13:05:40,654 [myid:] - INFO  [main:QuorumPeerConfig@389] - secureClientPort is not set
-2020-02-02 13:05:40,658 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
-2020-02-02 13:05:40,659 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
-2020-02-02 13:05:40,659 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
-2020-02-02 13:05:40,659 [myid:] - WARN  [main:QuorumPeerMain@125] - Either no config or no quorum defined in config, running  in standalone mode
-2020-02-02 13:05:40,664 [myid:] - INFO  [main:ManagedUtil@46] - Log4j found with jmx enabled.
-2020-02-02 13:05:40,689 [myid:] - INFO  [main:QuorumPeerConfig@133] - Reading configuration from: /Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../conf/zoo.cfg
-2020-02-02 13:05:40,690 [myid:] - INFO  [main:QuorumPeerConfig@385] - clientPortAddress is 0.0.0.0/0.0.0.0:2181
-2020-02-02 13:05:40,690 [myid:] - INFO  [main:QuorumPeerConfig@389] - secureClientPort is not set
-2020-02-02 13:05:40,690 [myid:] - INFO  [main:ZooKeeperServerMain@117] - Starting server
-2020-02-02 13:05:40,701 [myid:] - INFO  [main:FileTxnSnapLog@103] - zookeeper.snapshot.trust.empty : false
-2020-02-02 13:05:45,744 [myid:] - INFO  [main:Environment@109] - Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT
-2020-02-02 13:05:45,744 [myid:] - INFO  [main:Environment@109] - Server environment:host.name=192.168.0.104
-2020-02-02 13:05:45,745 [myid:] - INFO  [main:Environment@109] - Server environment:java.version=1.8.0_111
-2020-02-02 13:05:45,746 [myid:] - INFO  [main:Environment@109] - Server environment:java.vendor=Oracle Corporation
-2020-02-02 13:05:45,746 [myid:] - INFO  [main:Environment@109] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre
-2020-02-02 13:05:45,746 [myid:] - INFO  [main:Environment@109] - Server environment:java.class.path=/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../zookeeper-server/target/classes:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../build/classes:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../zookeeper-server/target/lib/*.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../build/lib/*.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/zookeeper-jute-3.5.6.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/zookeeper-3.5.6.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/slf4j-log4j12-1.7.25.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/slf4j-api-1.7.25.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-transport-native-unix-common-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-transport-native-epoll-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-transport-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-resolver-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-handler-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-common-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-codec-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-buffer-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/log4j-1.2.17.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/json-simple-1.1.1.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jline-2.11.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-util-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-servlet-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-server-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-security-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-io-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-http-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jackson-databind-2.9.10.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jackson-core-2.9.10.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jackson-annotations-2.9.10.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/commons-cli-1.2.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/audience-annotations-0.5.0.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../zookeeper-*.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../conf:
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:java.library.path=/Users/huangshuo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:java.io.tmpdir=/var/folders/zf/bnd64mqs0h5cc585pc1935p40000gn/T/
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:java.compiler=<NA>
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:os.name=Mac OS X
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:os.arch=x86_64
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:os.version=10.15.3
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:user.name=huangshuo
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:user.home=/Users/huangshuo
-2020-02-02 13:05:45,747 [myid:] - INFO  [main:Environment@109] - Server environment:user.dir=/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin
-2020-02-02 13:05:45,748 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.free=114MB
-2020-02-02 13:05:45,748 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.max=889MB
-2020-02-02 13:05:45,748 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.total=123MB
-2020-02-02 13:05:45,752 [myid:] - INFO  [main:ZooKeeperServer@938] - minSessionTimeout set to 4000
-2020-02-02 13:05:45,753 [myid:] - INFO  [main:ZooKeeperServer@947] - maxSessionTimeout set to 40000
-2020-02-02 13:05:45,754 [myid:] - INFO  [main:ZooKeeperServer@166] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2
-2020-02-02 13:05:45,797 [myid:] - INFO  [main:Log@193] - Logging initialized @10619ms to org.eclipse.jetty.util.log.Slf4jLog
-2020-02-02 13:05:45,972 [myid:] - WARN  [main:ContextHandler@1588] - o.e.j.s.ServletContextHandler@4b952a2d{/,null,UNAVAILABLE} contextPath ends with /*
-2020-02-02 13:05:45,973 [myid:] - WARN  [main:ContextHandler@1599] - Empty contextPath
-2020-02-02 13:05:45,992 [myid:] - INFO  [main:Server@370] - jetty-9.4.17.v20190418; built: 2019-04-18T19:45:35.259Z; git: aa1c656c315c011c01e7b21aabb04066635b9f67; jvm 1.8.0_111-b14
-2020-02-02 13:05:46,037 [myid:] - INFO  [main:DefaultSessionIdManager@365] - DefaultSessionIdManager workerName=node0
-2020-02-02 13:05:46,037 [myid:] - INFO  [main:DefaultSessionIdManager@370] - No SessionScavenger set, using defaults
-2020-02-02 13:05:46,039 [myid:] - INFO  [main:HouseKeeper@149] - node0 Scavenging every 660000ms
-2020-02-02 13:05:46,055 [myid:] - INFO  [main:ContextHandler@855] - Started o.e.j.s.ServletContextHandler@4b952a2d{/,null,AVAILABLE}
-2020-02-02 13:05:46,078 [myid:] - INFO  [main:AbstractConnector@292] - Started ServerConnector@51efea79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
-2020-02-02 13:05:46,079 [myid:] - INFO  [main:Server@410] - Started @10907ms
-2020-02-02 13:05:46,080 [myid:] - INFO  [main:JettyAdminServer@112] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
-2020-02-02 13:05:46,089 [myid:] - INFO  [main:ServerCnxnFactory@135] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
-2020-02-02 13:05:46,093 [myid:] - INFO  [main:NIOServerCnxnFactory@673] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
-2020-02-02 13:05:46,095 [myid:] - INFO  [main:NIOServerCnxnFactory@686] - binding to port 0.0.0.0/0.0.0.0:2181
-2020-02-02 13:05:46,115 [myid:] - INFO  [main:ZKDatabase@117] - zookeeper.snapshotSizeFactor = 0.33
-2020-02-02 13:05:46,118 [myid:] - INFO  [main:FileSnap@83] - Reading snapshot /tmp/zookeeper/version-2/snapshot.7
-2020-02-02 13:05:46,141 [myid:] - INFO  [main:FileTxnSnapLog@384] - Snapshotting: 0xe to /tmp/zookeeper/version-2/snapshot.e
-2020-02-02 13:05:46,165 [myid:] - INFO  [main:ContainerManager@64] - Using checkIntervalMs=60000 maxPerMinute=10000
-2020-02-02 13:05:50,569 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000a07ce930003, timeout of 4000ms exceeded
-2020-02-02 13:05:50,572 [myid:] - INFO  [SyncThread:0:FileTxnLog@216] - Creating new log file: log.f
-2020-02-02 13:08:02,172 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0000, likely client has closed socket
-2020-02-02 13:08:06,573 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0000, timeout of 4000ms exceeded
-2020-02-02 13:08:10,026 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0001, likely client has closed socket
-2020-02-02 13:08:11,265 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0002, likely client has closed socket
-2020-02-02 13:08:12,247 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0003, likely client has closed socket
-2020-02-02 13:08:14,573 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0001, timeout of 4000ms exceeded
-2020-02-02 13:08:14,574 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0002, timeout of 4000ms exceeded
-2020-02-02 13:08:16,574 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0003, timeout of 4000ms exceeded
-2020-02-02 14:01:42,730 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0005, likely client has closed socket
-2020-02-02 14:02:06,605 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0005, timeout of 30000ms exceeded
-2020-02-02 15:07:03,920 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0004, likely client has closed socket
-2020-02-02 15:07:06,625 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0004, timeout of 4000ms exceeded
-2020-02-02 15:21:12,864 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0006, likely client has closed socket
-2020-02-02 15:21:16,631 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0006, timeout of 4000ms exceeded
-2020-02-02 15:22:08,768 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0007, likely client has closed socket
-2020-02-02 15:22:12,630 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0007, timeout of 4000ms exceeded
-2020-02-02 15:22:15,317 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0008, likely client has closed socket
-2020-02-02 15:22:18,632 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0008, timeout of 4000ms exceeded
-2020-02-02 15:23:16,914 [myid:] - WARN  [NIOWorkerThread-7:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b0009, likely client has closed socket
-2020-02-02 15:23:20,634 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b0009, timeout of 4000ms exceeded
-2020-02-02 15:23:44,052 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x1000d6bb16b000b, likely client has closed socket
-2020-02-02 15:23:48,633 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x1000d6bb16b000b, timeout of 4000ms exceeded
+2020-02-03 14:33:59,428 [myid:] - INFO  [main:QuorumPeerConfig@133] - Reading configuration from: /Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../conf/zoo.cfg
+2020-02-03 14:33:59,436 [myid:] - INFO  [main:QuorumPeerConfig@385] - clientPortAddress is 0.0.0.0/0.0.0.0:2181
+2020-02-03 14:33:59,436 [myid:] - INFO  [main:QuorumPeerConfig@389] - secureClientPort is not set
+2020-02-03 14:33:59,440 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2020-02-03 14:33:59,440 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2020-02-03 14:33:59,441 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2020-02-03 14:33:59,441 [myid:] - WARN  [main:QuorumPeerMain@125] - Either no config or no quorum defined in config, running  in standalone mode
+2020-02-03 14:33:59,445 [myid:] - INFO  [main:ManagedUtil@46] - Log4j found with jmx enabled.
+2020-02-03 14:33:59,465 [myid:] - INFO  [main:QuorumPeerConfig@133] - Reading configuration from: /Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../conf/zoo.cfg
+2020-02-03 14:33:59,466 [myid:] - INFO  [main:QuorumPeerConfig@385] - clientPortAddress is 0.0.0.0/0.0.0.0:2181
+2020-02-03 14:33:59,466 [myid:] - INFO  [main:QuorumPeerConfig@389] - secureClientPort is not set
+2020-02-03 14:33:59,466 [myid:] - INFO  [main:ZooKeeperServerMain@117] - Starting server
+2020-02-03 14:33:59,471 [myid:] - INFO  [main:FileTxnSnapLog@103] - zookeeper.snapshot.trust.empty : false
+2020-02-03 14:34:04,492 [myid:] - INFO  [main:Environment@109] - Server environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT
+2020-02-03 14:34:04,492 [myid:] - INFO  [main:Environment@109] - Server environment:host.name=192.168.0.104
+2020-02-03 14:34:04,493 [myid:] - INFO  [main:Environment@109] - Server environment:java.version=1.8.0_111
+2020-02-03 14:34:04,494 [myid:] - INFO  [main:Environment@109] - Server environment:java.vendor=Oracle Corporation
+2020-02-03 14:34:04,494 [myid:] - INFO  [main:Environment@109] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre
+2020-02-03 14:34:04,494 [myid:] - INFO  [main:Environment@109] - Server environment:java.class.path=/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../zookeeper-server/target/classes:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../build/classes:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../zookeeper-server/target/lib/*.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../build/lib/*.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/zookeeper-jute-3.5.6.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/zookeeper-3.5.6.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/slf4j-log4j12-1.7.25.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/slf4j-api-1.7.25.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-transport-native-unix-common-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-transport-native-epoll-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-transport-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-resolver-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-handler-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-common-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-codec-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/netty-buffer-4.1.42.Final.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/log4j-1.2.17.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/json-simple-1.1.1.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jline-2.11.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-util-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-servlet-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-server-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-security-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-io-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jetty-http-9.4.17.v20190418.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/javax.servlet-api-3.1.0.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jackson-databind-2.9.10.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jackson-core-2.9.10.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/jackson-annotations-2.9.10.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/commons-cli-1.2.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../lib/audience-annotations-0.5.0.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../zookeeper-*.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../zookeeper-server/src/main/resources/lib/*.jar:/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin/../conf:
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:java.library.path=/Users/huangshuo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:java.io.tmpdir=/var/folders/zf/bnd64mqs0h5cc585pc1935p40000gn/T/
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:java.compiler=<NA>
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:os.name=Mac OS X
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:os.arch=x86_64
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:os.version=10.15.3
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:user.name=huangshuo
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:user.home=/Users/huangshuo
+2020-02-03 14:34:04,495 [myid:] - INFO  [main:Environment@109] - Server environment:user.dir=/Users/huangshuo/Documents/zookeeper/apache-zookeeper-3.5.6-bin/bin
+2020-02-03 14:34:04,496 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.free=114MB
+2020-02-03 14:34:04,496 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.max=889MB
+2020-02-03 14:34:04,496 [myid:] - INFO  [main:Environment@109] - Server environment:os.memory.total=123MB
+2020-02-03 14:34:04,498 [myid:] - INFO  [main:ZooKeeperServer@938] - minSessionTimeout set to 4000
+2020-02-03 14:34:04,498 [myid:] - INFO  [main:ZooKeeperServer@947] - maxSessionTimeout set to 40000
+2020-02-03 14:34:04,499 [myid:] - INFO  [main:ZooKeeperServer@166] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2
+2020-02-03 14:34:04,535 [myid:] - INFO  [main:Log@193] - Logging initialized @10656ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-02-03 14:34:04,745 [myid:] - WARN  [main:ContextHandler@1588] - o.e.j.s.ServletContextHandler@4b952a2d{/,null,UNAVAILABLE} contextPath ends with /*
+2020-02-03 14:34:04,745 [myid:] - WARN  [main:ContextHandler@1599] - Empty contextPath
+2020-02-03 14:34:04,765 [myid:] - INFO  [main:Server@370] - jetty-9.4.17.v20190418; built: 2019-04-18T19:45:35.259Z; git: aa1c656c315c011c01e7b21aabb04066635b9f67; jvm 1.8.0_111-b14
+2020-02-03 14:34:04,839 [myid:] - INFO  [main:DefaultSessionIdManager@365] - DefaultSessionIdManager workerName=node0
+2020-02-03 14:34:04,839 [myid:] - INFO  [main:DefaultSessionIdManager@370] - No SessionScavenger set, using defaults
+2020-02-03 14:34:04,842 [myid:] - INFO  [main:HouseKeeper@149] - node0 Scavenging every 660000ms
+2020-02-03 14:34:04,857 [myid:] - INFO  [main:ContextHandler@855] - Started o.e.j.s.ServletContextHandler@4b952a2d{/,null,AVAILABLE}
+2020-02-03 14:34:04,889 [myid:] - INFO  [main:AbstractConnector@292] - Started ServerConnector@51efea79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-02-03 14:34:04,889 [myid:] - INFO  [main:Server@410] - Started @11017ms
+2020-02-03 14:34:04,890 [myid:] - INFO  [main:JettyAdminServer@112] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+2020-02-03 14:34:04,898 [myid:] - INFO  [main:ServerCnxnFactory@135] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-02-03 14:34:04,902 [myid:] - INFO  [main:NIOServerCnxnFactory@673] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
+2020-02-03 14:34:04,905 [myid:] - INFO  [main:NIOServerCnxnFactory@686] - binding to port 0.0.0.0/0.0.0.0:2181
+2020-02-03 14:34:04,924 [myid:] - INFO  [main:ZKDatabase@117] - zookeeper.snapshotSizeFactor = 0.33
+2020-02-03 14:34:04,927 [myid:] - INFO  [main:FileTxnSnapLog@384] - Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0
+2020-02-03 14:34:04,931 [myid:] - INFO  [main:FileTxnSnapLog@384] - Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0
+2020-02-03 14:34:04,951 [myid:] - INFO  [main:ContainerManager@64] - Using checkIntervalMs=60000 maxPerMinute=10000
+2020-02-03 14:34:54,155 [myid:] - INFO  [SyncThread:0:FileTxnLog@216] - Creating new log file: log.1
+2020-02-03 14:34:54,554 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0000, likely client has closed socket
+2020-02-03 14:34:58,225 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0000, timeout of 4000ms exceeded
+2020-02-03 14:38:08,733 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0002, likely client has closed socket
+2020-02-03 14:38:14,229 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0002, timeout of 4000ms exceeded
+2020-02-03 14:39:14,208 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0003, likely client has closed socket
+2020-02-03 14:39:18,222 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0003, timeout of 4000ms exceeded
+2020-02-03 14:39:26,173 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0004, likely client has closed socket
+2020-02-03 14:39:30,223 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0004, timeout of 4000ms exceeded
+2020-02-03 14:42:13,862 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0005, likely client has closed socket
+2020-02-03 14:42:18,227 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0005, timeout of 4000ms exceeded
+2020-02-03 14:45:55,669 [myid:] - WARN  [NIOWorkerThread-8:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0006, likely client has closed socket
+2020-02-03 14:46:00,229 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0006, timeout of 4000ms exceeded
+2020-02-03 19:42:50,768 [myid:] - WARN  [NIOWorkerThread-7:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0007, likely client has closed socket
+2020-02-03 19:42:55,254 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0007, timeout of 4000ms exceeded
+2020-02-03 19:42:58,864 [myid:] - WARN  [NIOWorkerThread-6:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0008, likely client has closed socket
+2020-02-03 19:43:03,253 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0008, timeout of 4000ms exceeded
+2020-02-03 19:50:53,268 [myid:] - WARN  [NIOWorkerThread-8:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b000a, likely client has closed socket
+2020-02-03 19:50:57,251 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b000a, timeout of 4000ms exceeded
+2020-02-03 19:52:27,494 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b000c, likely client has closed socket
+2020-02-03 19:52:31,253 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b000c, timeout of 4000ms exceeded
+2020-02-03 19:52:51,963 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b000d, likely client has closed socket
+2020-02-03 19:52:55,250 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b000d, timeout of 4000ms exceeded
+2020-02-03 19:54:02,581 [myid:] - WARN  [NIOWorkerThread-5:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b000b, likely client has closed socket
+2020-02-03 19:54:07,252 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b000b, timeout of 4000ms exceeded
+2020-02-03 19:57:21,198 [myid:] - WARN  [NIOWorkerThread-4:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0011, likely client has closed socket
+2020-02-03 19:57:25,253 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0011, timeout of 4000ms exceeded
+2020-02-03 19:57:47,126 [myid:] - WARN  [NIOWorkerThread-7:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b000e, likely client has closed socket
+2020-02-03 19:57:51,253 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b000e, timeout of 4000ms exceeded
+2020-02-03 19:59:48,574 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0013, likely client has closed socket
+2020-02-03 19:59:53,252 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0013, timeout of 4000ms exceeded
+2020-02-03 19:59:54,610 [myid:] - WARN  [NIOWorkerThread-8:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b000f, likely client has closed socket
+2020-02-03 19:59:59,251 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b000f, timeout of 4000ms exceeded
+2020-02-03 20:03:22,958 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0010, likely client has closed socket
+2020-02-03 20:03:27,262 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0010, timeout of 4000ms exceeded
+2020-02-03 20:03:29,236 [myid:] - WARN  [NIOWorkerThread-1:NIOServerCnxn@366] - Unable to read additional data from client sessionid 0x10000f7f75b0012, likely client has closed socket
+2020-02-03 20:03:33,261 [myid:] - INFO  [SessionTracker:ZooKeeperServer@398] - Expiring session 0x10000f7f75b0012, timeout of 4000ms exceeded

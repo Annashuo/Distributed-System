@@ -22,6 +22,9 @@
  *  SOFTWARE.
  */
 
+package cluster.management;
+
+
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;
 
@@ -33,21 +36,14 @@ import java.util.List;
  * Zookeeper Client Threading Model & Zookeeper Java API
  */
 public class LeaderElection implements Watcher {
-    private static final String ZOOKEEPER_ADDRESS = "localhost:2181";
-    private static final int SESSION_TIMEOUT = 3000;
     private static final String ELECTION_NAMESPACE = "/election";
     private ZooKeeper zooKeeper;
     private String currentZnodeName;
+    private final OnElectionCallback onElectionCallback;
 
-    public static void main(String[] arg) throws IOException, InterruptedException, KeeperException {
-        LeaderElection leaderElection = new LeaderElection();
-
-        leaderElection.connectToZookeeper();
-        leaderElection.volunteerForLeadership();
-        leaderElection.reelectLeader();
-        leaderElection.run();
-        leaderElection.close();
-        System.out.println("Disconnected from Zookeeper, exiting application");
+    public LeaderElection(ZooKeeper zooKeeper, OnElectionCallback onElectionCallback){
+        this.zooKeeper = zooKeeper;
+        this.onElectionCallback = onElectionCallback;
     }
 
     public void volunteerForLeadership() throws KeeperException, InterruptedException{
@@ -70,6 +66,7 @@ public class LeaderElection implements Watcher {
 
             if(smallestChild.equals(currentZnodeName)){
                 System.out.println("I am the leader");
+                onElectionCallback.onElectedToBeLeader();
                 return;
             }
             else {
@@ -80,39 +77,16 @@ public class LeaderElection implements Watcher {
                 predecessorStat = zooKeeper.exists(ELECTION_NAMESPACE + "/" + predecessorName, this);
             }
         }
-
+        onElectionCallback.onWorker();
         System.out.println("Watching znode " + predecessorName);
         System.out.println();
 
-    }
-
-    public void connectToZookeeper() throws IOException {
-        this.zooKeeper = new ZooKeeper(ZOOKEEPER_ADDRESS, SESSION_TIMEOUT, this);
-    }
-
-    private void run() throws InterruptedException {
-        synchronized (zooKeeper) {
-            zooKeeper.wait();
-        }
-    }
-
-    private void close() throws InterruptedException {
-        this.zooKeeper.close();
     }
 
 
     @Override
     public void process(WatchedEvent event) {
         switch (event.getType()) {
-            case None:
-                if (event.getState() == Event.KeeperState.SyncConnected) {
-                    System.out.println("Successfully connected to Zookeeper");
-                } else {
-                    synchronized (zooKeeper) {
-                        System.out.println("Disconnected from Zookeeper event");
-                        zooKeeper.notifyAll();
-                    }
-                }
             case NodeDeleted:
                 try {
                     reelectLeader();

@@ -1,2 +1,9 @@
-LeaderElection$1.class
-LeaderElection.class
+cluster/management/ServiceRegistry.class
+cluster/management/WatchersDemo.class
+Application$1.class
+cluster/management/OnElectionCallback.class
+cluster/management/LeaderElection$1.class
+cluster/management/LeaderElection.class
+cluster/management/WatchersDemo$1.class
+OnElectionAction.class
+Application.class
